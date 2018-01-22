@@ -14,7 +14,7 @@ print "<body>"
 
 containers = commands.getoutput("docker ps --format \"{{.Names}}\"").split()
 
-for c in containers:
+for c in sorted(containers):
 
 
     url = commands.getoutput("docker exec {0} /bin/bash -c \"jupyter notebook list\"".format(c))
