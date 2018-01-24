@@ -6,7 +6,7 @@ import cgitb
 
 cgitb.enable()
 
-HOST = '192.168.36.16'
+HOST = 'ARGHOST'
 
 print "Content-type: text/html"
 print "\r\n"
