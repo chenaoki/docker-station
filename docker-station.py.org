@@ -43,7 +43,7 @@ for c in sorted(containers):
         if p_container == '8888': 
             print "<a href=\""
             print url.replace('localhost', HOST).replace('8888', p_host)
-            print "\">"
+            print "\" target=\"_blank\">"
             print p_host
             print "</a>"
         
